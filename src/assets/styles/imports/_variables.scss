@@ -1,0 +1,10 @@
+
+:root{
+    --ta-global-color-0: #e9f6ff;
+    --ta-global-color-3: #0274be;
+    //--ta-global-color-6: #014672;
+    --ta-global-color-9: #646464;
+}
+$primary-light: var(--ta-global-color-0);
+$primary: var(--ta-global-color-3);
+$accent: var(--ta-global-color-9);

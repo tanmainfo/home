@@ -1,0 +1,14 @@
+@import "./customs/btnSocial";
+@import "./imports/_variables";
+@import "./imports/_breakpoint";
+
+.title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: $primary;
+  }
+  
