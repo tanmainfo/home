@@ -1,5 +1,4 @@
 <script setup>
-import btnSocials from "@/components/common/btnSocials.vue";
 const _WEBRNAME_SHORT = import.meta.env.VITE_WEBNAME_SHORT;
 const _WEBRNAME_FULL = import.meta.env.VITE_WEBNAME_FULL;
 
