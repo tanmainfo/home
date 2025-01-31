@@ -53,32 +53,34 @@
 
 <script setup>
 import { ref } from "vue";
-import bcv1 from "@/assets/images/bc-v1.png";
+import dbc from "@/assets/images/dbc.png";
+import mars from "@/assets/images/mars.jpg";
+import dpt from "@/assets/images/dpt.jpg";
 const datas = [
     {
         id: 1,
-        imageUrl: bcv1,
-        href: 'https://bc.tanmainfo.com',
-        category: 'shop'
+        imageUrl: dbc,
+        href: 'https://dbc.tanmainfo.com',
+        category: 'bussiness'
     },
     {
         id: 2,
-        imageUrl: bcv1,
-        href: 'https://bc.tanmainfo.com',
+        imageUrl: mars,
+        href: 'https://mars.tanmainfo.com',
         category: 'bussiness'
     },
     {
         id: 3,
-        imageUrl: bcv1,
-        href: 'https://bc.tanmainfo.com',
+        imageUrl: dpt,
+        href: 'https://dpt.tanmainfo.com/',
         category: 'bussiness'
     },
-    {
-        id: 4,
-        imageUrl: bcv1,
-        href: 'https://bc.tanmainfo.com',
-        category: 'bussiness'
-    }
+    // {
+    //     id: 4,
+    //     imageUrl: bcv1,
+    //     href: 'https://bc.tanmainfo.com',
+    //     category: 'bussiness'
+    // }
 ]
 const tempDatas = ref(datas);
 function filterDatas(key) {
