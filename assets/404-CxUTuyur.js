@@ -1,0 +1,1 @@
+import{_ as e,c as o,a as n,o as s}from"./index-C24L5O2j.js";const c={},a={class:"notfound container text-center"};function r(_,t,d,p,f,i){return s(),o("div",a,t[0]||(t[0]=[n("h3",null,"Not Found",-1)]))}const u=e(c,[["render",r],["__scopeId","data-v-9c6f4c19"]]);export{u as default};
